@@ -191,15 +191,129 @@ nav ul{
 }
 
 
+/* -----------------------------------------FORM STARTS----------------------=-------------- */
+.form-background{
+    /* position: relative; */
+}
+button, input{
+    outline: none !important; 
+}
+.form-bg{
+    position: absolute;
+    width: 100%;
+    display: flex;
+    z-index: 9;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    top: 0;
+    right: 0;
+    background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.6)) ;
+    display: none;
+}
+.form-box{
+    margin: auto;
+    width: 30rem;
+    height: 33rem;
+    background: var(--maize);
+    position: relative;
+    padding: .3rem;
+    box-shadow: 0 0 10px 0px rgba(45, 45, 46, .5);
+    color: white;
+}
+.fa-window-close{
+    position: absolute;
+    top:1rem;
+    right: 1rem;
+    color: var(--darkblue);
+    font-size: 1.4rem;
+}
+.button-box{
+    width: 240px;
+    margin: 35px auto;
+    position: relative;
+    box-shadow: 0 0 10px 0px rgba(45, 45, 46, .5);
+    border-radius: 30px;
+}
+.toggle-btn{
+    padding: 1rem 2rem;
+    cursor: pointer;
+    background: transparent;
+    position: relative;
+    font-size: 1rem;
+    color: white;
+}
+#btn{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 130px;
+    height: 100%;
+    background:  var(--darkblue);
+    border-radius: 2rem;
+    transition: linear .3s;
+}
+.social-icons{
+    margin: 2rem auto;
+    text-align: center;
+}
+.social-icons i {
+    font-size: 2.2rem;
+    margin: 0 .8rem;
+    box-shadow: 0 0 20px rgba(247, 137, 97,.5);
+    color: var(--primary);
+    cursor: pointer;
+}
+.input-group{
+    position: absolute;
+    top: 11.5rem;
+    width: 17.6rem;
+}
+.input-field{
+    width: 100%;
+    padding: .8rem 0;
+    margin: .4rem 0;
+    border: none;
+    border-bottom: 1px solid #7c7c7c;
+    background: transparent;
+    color: rgb(45, 45, 46);
+}
+#submit-btn{
+    width: 84%;
+    display: block;
+    padding: .3rem 2rem;
+    background: var(--primary);
+    border-radius: .6rem;
+    cursor: pointer;
+    margin-top: 1rem;
+}
+#login{
+    left: 120px;
+}
+#sign-up{
+    left: 500px;
+
+}
+.form-box{
+    transition: linear .3s;
+    overflow: hidden;
+}
+.check-box{
+    margin-top: 1rem;
+}
+
+/* -----------------------------------------FORM ENDS----------------------=-------------- */
+
+
+/* -----------------------------------------CAROUSEL STARTS----------------------=-------------- */
+
 @import url('https://fonts.googleapis.com/css2?family=Mulish:wght@300&display=swap');
 *{
     padding: 0;
     margin: 0;
     font-family: 'Mulish', sans-serif;
 }
-body{
-    /* font-size:.8rem; */
-}
+
 .col-md-9,
 .col{
     padding-left: 0;
@@ -287,6 +401,8 @@ label.radio input{
 .carousel-control-next{
     left: 7vh;
 }
+/* -----------------------------------------CAROUSEL ENDS----------------------=-------------- */
+
 
 /* ---------------------------------FOOTER STARTS---------------------------------------- */
 footer{
